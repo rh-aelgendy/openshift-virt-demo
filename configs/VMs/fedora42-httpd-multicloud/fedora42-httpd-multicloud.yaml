@@ -57,8 +57,6 @@ spec:
       networks:
       - name: default
         pod: {}
-      nodeSelector:
-        app: virtualmachine
       terminationGracePeriodSeconds: 180
       volumes:
       - containerDisk:
