@@ -25,6 +25,7 @@ spec:
       domain:
         cpu:
           cores: 1
+          model: host-passthrough
           sockets: 1
           threads: 1
         devices:
